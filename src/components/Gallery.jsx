@@ -13,22 +13,14 @@ function Gallery() {
             Selected Works
           </h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 auto-rows-[300px]">
-          {photos.map((photo, index) => (
-            <div
+        <div className="columns-1 md:columns-2 gap-6 space-y-6">
+          {photos.map((photo) => (
+            <PhotoCard
               key={photo.id}
-              className={
-                index === 0 || index === 3
-                  ? "md:row-span-2"
-                  : ""
-              }
-            >
-              <PhotoCard
-                image={photo.image}
-                title={photo.title}
-                location={photo.location}
-              />
-            </div>
+              image={photo.image}
+              title={photo.title}
+              location={photo.location}
+            />
           ))}
         </div>
       </div>

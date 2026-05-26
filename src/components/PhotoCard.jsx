@@ -1,11 +1,11 @@
 function PhotoCard({ image, title, location }) {
   return (
-    <div className="group relative overflow-hidden rounded-2xl">
+    <div className="group relative overflow-hidden rounded-2xl mb-6 break-inside-avoid">
       
       <img
         src={image}
         alt={title}
-        className="h-full w-full object-cover transition duration-700 group-hover:scale-110"
+        className="w-full object-cover transition duration-700 group-hover:scale-105"
       />
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition duration-500" />
