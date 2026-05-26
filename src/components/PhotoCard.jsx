@@ -19,7 +19,6 @@ function PhotoCard({ image, title, location }) {
           {location}
         </p>
       </div>
-
     </div>
   )
 }
