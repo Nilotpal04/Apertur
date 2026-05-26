@@ -1,35 +1,73 @@
 const photos = [
   {
     id: 1,
-    image:
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    image: "/images/photo1.jpg.jpeg",
     title: "Mountains",
     location: "Iceland",
   },
 
   {
     id: 2,
-    image:
-      "https://images.unsplash.com/photo-1493246507139-91e8fad9978e",
+    image: "/images/photo2.jpg.jpeg",
     title: "Forest",
     location: "Norway",
   },
 
   {
     id: 3,
-    image:
-      "https://images.unsplash.com/photo-1514565131-fce0801e5785",
+    image: "/images/photo3.jpg.jpeg",
     title: "City Lights",
     location: "Tokyo",
   },
 
   {
     id: 4,
-    image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    image: "/images/photo4.jpg.jpeg",
     title: "Desert",
     location: "Morocco",
   },
-]
 
-export default photos
+  {
+    id: 5,
+    image: "/images/photo5.jpg.jpeg",
+    title: "Desert",
+    location: "Morocco",
+  },
+
+  {
+    id: 6,
+    image: "/images/photo6.jpg.jpeg",
+    title: "Desert",
+    location: "Morocco",
+  },
+
+  {
+    id: 7,
+    image: "/images/photo7.jpg.jpeg",
+    title: "Desert",
+    location: "Morocco",
+  },
+
+  {
+    id: 8,
+    image: "/images/photo8.jpg.jpeg",
+    title: "Desert",
+    location: "Morocco",
+  },
+
+  {
+    id: 9,
+    image: "/images/photo9.jpg.jpeg",
+    title: "Desert",
+    location: "Morocco",
+  },
+
+  {
+    id: 10,
+    image: "/images/photo10.jpg.jpeg",
+    title: "Desert",
+    location: "Morocco",
+  },
+];
+
+export default photos;
