@@ -4,7 +4,7 @@ import PhotoCard from "./PhotoCard"
 function Gallery() {
   return (
     <section className="px-6 py-32">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[1500px] mx-auto">
         <div className="mb-16">
           <p className="uppercase tracking-[0.3em] text-sm text-gray-400">
             Gallery
@@ -13,7 +13,7 @@ function Gallery() {
             Selected Works
           </h2>
         </div>
-        <div className="columns-1 md:columns-2 gap-6 space-y-6">
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-5 space-y-5">
           {photos.map((photo) => (
             <PhotoCard
               key={photo.id}
