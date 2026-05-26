@@ -1,8 +1,12 @@
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+
 function App() {
   return (
-    <div>
-      <h1>Hello Neel</h1>
-    </div>
+    <main className="bg-black text-white min-h-screen">
+      <Navbar/>
+      <Hero/>
+    </main>
   )
 }
 
