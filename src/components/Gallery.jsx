@@ -3,7 +3,7 @@ import PhotoCard from "./PhotoCard"
 
 function Gallery() {
   return (
-    <section className="px-6 py-24">
+    <section className="px-6 py-32">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
           <p className="uppercase tracking-[0.3em] text-sm text-gray-400">
