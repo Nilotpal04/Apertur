@@ -43,3 +43,5 @@ backend/.venv/
 .env
 backend/.env
 frontend/.env
+
+.venv
